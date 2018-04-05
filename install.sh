@@ -6,6 +6,11 @@ function addbashaliases() {
 if [ -f ~/aliases/.bash_aliases ]; then
   . ~/aliases/.bash_aliases
 fi
+# addalias() {
+#   cat >> ~/aliases/.bash_aliases << EOT
+#   $1
+#   EOT
+}
 EOT
 
   # Reload current environment
