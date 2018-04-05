@@ -13,5 +13,5 @@ $`chmod +x install.sh`
 $`./install.sh`
 - to view your aliases, run `alias` in your terminal
 
-#adding aliases
+# adding aliases
 coming soon
