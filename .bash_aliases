@@ -9,6 +9,8 @@ alias gchb='git checkout -b'
 alias gch='git checkout'
 alias gp='git push'
 alias gpl='git pull'
+alias ga='git add'
+alias grma='git remote add'
 
 # system aliases
 mcd() {
