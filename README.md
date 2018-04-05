@@ -23,4 +23,4 @@ chmod +x install.sh
 - to view your aliases, run `alias` in your terminal
 
 # adding aliases
-coming soon
+To add a new alias, on the terminal, type `na` then edit the file appropriately.
