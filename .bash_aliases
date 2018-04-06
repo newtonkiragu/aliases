@@ -12,6 +12,7 @@ alias gpl='git pull'
 alias ga='git add'
 alias grma='git remote add'
 alias gm='git merge'
+alias gcl='git clone'
 
 # system aliases
 mcd() {
