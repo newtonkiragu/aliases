@@ -23,6 +23,7 @@ chmod +x install.sh
 ```$
 ./install.sh
 ```
+- open a new instance of your terminal emulator to start using aliases
 - to view your aliases, run `alias` in your terminal
 
 # adding aliases
