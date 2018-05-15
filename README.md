@@ -7,7 +7,7 @@ To get you started, I have some default aliases set up for you. you can edit the
 **Aliases** currently contains git and bash aliases.
 
 # Prequisities
-- you need to have `nano` text editor installed. you can find out whether you have it installed by typing `nano --version` in your terminal. For most linux distributions, it is installed by default. However, if you don't have it installed, you can quicky do that by typing `sudo apt-get install nano` in your terminal.
+- You need to have `nano` text editor installed. you can find out whether you have it installed by typing `nano --version` in your terminal. For most linux distributions, it is installed by default. However, if you don't have it installed, you can quicky do that by typing `sudo apt-get install nano` in your terminal.
 
 # Installation
 - Clone the repository [Aliases](https://github.com/newtonkiragu/aliases/) in the root directory.
