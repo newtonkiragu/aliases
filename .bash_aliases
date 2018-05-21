@@ -13,6 +13,7 @@ alias ga='git add'
 alias grma='git remote add'
 alias gm='git merge'
 alias gcl='git clone'
+alias gf='git fetch'
 
 # system aliases
 mcd() {
@@ -37,7 +38,8 @@ alias install='sudo dpkg -i'
 alias extract='tar xzfj'
 alias na='nano ~/aliases/.bash_aliases'
 alias stve='source virtual/bin/activate'
-alias dlw='wget -r'
+alias dlw='cd ~/Documents && wget -r'
 alias ngrok='~/./ngrok http'
 alias ufl='umount /dev/sdb'
 alias ffl='mkfs.vfat -n 'BarryAllen' -I /dev/sdb'
+alias rn='sudo service network-manager restart'
