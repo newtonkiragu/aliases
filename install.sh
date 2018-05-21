@@ -23,7 +23,7 @@ cat >> $HOME/.bash_profile << EOT
 EOT
   source $HOME/aliases/.bash_aliases
 else
-  echo 'no console has been found! Please contact the developers for more details'
+  echo 'no terminal emulator has been found! Please contact the developers for more details'
 fi
 }
 
