@@ -14,6 +14,9 @@ alias grma='git remote add'
 alias gm='git merge'
 alias gcl='git clone'
 alias gf='git fetch'
+gcr() {
+  git create newtonkiragu/$1
+}
 
 # system aliases
 mcd() {
@@ -22,11 +25,11 @@ mcd() {
 }
 # addalias() {
 #   cat >> ~/aliases/.bash_aliases << EOT
-#   alias $1
+# alias $1
 # EOT
 # }
 alias t="touch"
-alias uu='sudo apt-get update && sudo apt-get upgrade'
+alias uu='sudo apt-get update && sudo apt-get -y upgrade'
 alias dp='cd ~/Desktop'
 alias dc='cd ~/Documents'
 alias opn='xdg-open'
@@ -43,3 +46,5 @@ alias ngrok='~/./ngrok http'
 alias ufl='umount /dev/sdb'
 alias ffl='mkfs.vfat -n 'BarryAllen' -I /dev/sdb'
 alias rn='sudo service network-manager restart'
+alias u='sudo apt-get update'
+alias ua='sudo apt-get update && sudo apt-get -y upgrade && sudo apt-get -y dist-upgrade'
