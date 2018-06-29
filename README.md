@@ -31,3 +31,5 @@ chmod +x install.sh
 
 # adding aliases
 To add a new alias, on the terminal, type `na` then edit the file appropriately.
+## licence
+MIT (c)Newton Kiragu [LICENCE](https://github.com/newtonkiragu/aliases/LICENCE)
