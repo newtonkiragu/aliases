@@ -32,4 +32,4 @@ chmod +x install.sh
 # adding aliases
 To add a new alias, on the terminal, type `na` then edit the file appropriately.
 ## licence
-MIT (c)Newton Kiragu [LICENCE](https://github.com/newtonkiragu/aliases/LICENCE)
+Newton Kiragu - MIT (c)2018 [LICENCE](https://github.com/newtonkiragu/aliases/blob/master/LICENSE)
