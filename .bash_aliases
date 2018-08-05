@@ -1,4 +1,12 @@
 # git aliases
+alias run='./manage.py runserver'
+alias migrate='./manage.py migrate'
+alias makemigrations='./manage.py makemigrations'
+alias sqlmigrate='./manage.py sqlmigrate'
+alias config_password='git config credential.helper store'
+alias django_app='django-admin startapp'
+alias django_making='virtual && stve && pip install django==1.11 && django-admin startproject'
+alias virtual='python -m venv virtual'
 alias st='git status'
 alias gi='git init'
 alias gc='git commit'
