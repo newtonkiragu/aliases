@@ -49,11 +49,7 @@ alias ufl='umount /dev/sdb'
 alias ffl='mkfs.vfat -n 'BarryAllen' -I /dev/sdb'
 alias rn='sudo service network-manager restart'
 alias u='sudo apt-get update'
-<<<<<<< HEAD
 alias ua='sudo apt-get update && sudo apt-get -y upgrade && sudo apt-get install -f && sudo apt-get -y dist-upgrade && sudo apt-get -y autoclean && sudo apt-get -y autoremove'
 alias pyt='python3.6'
 alias c='code-insiders .'
 alias bs='bucklespring.buckle'
-=======
-alias ua='sudo apt-get update && sudo apt-get -y upgrade && sudo apt-get -y install -f && sudo apt-get -y dist-upgrade && sudo apt-get -y autoclean && sudo apt-get -y autoremove'
->>>>>>> d193d87b799df5eca20d1522e9c011c78ca66ddb
