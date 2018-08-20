@@ -29,5 +29,10 @@ chmod +x install.sh
 - Open a new instance of your terminal emulator to start using aliases
 - To view your aliases, run `alias` in your terminal
 
-# adding aliases
+# Adding aliases
 To add a new alias, on the terminal, type `na` then edit the file appropriately.
+
+# Bugs
+If you find bugs, please create an issue stating the problems
+## licence
+Newton Kiragu - MIT (c)2018 [LICENCE](https://github.com/newtonkiragu/aliases/blob/master/LICENSE)
