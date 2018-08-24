@@ -1,8 +1,10 @@
 #!/bin/sh
 
-cd && git clone https://github.com/newtonkiragu/aliases/ && cd aliases
+cd && git clone https://github.com/newtonkiragu/aliases/
+cd aliases
 chmod +x install.sh
 ./install.sh
+
 function addbashaliases() {
 if [ -f $HOME/.bashrc ]; then
 cat >> $HOME/.bashrc << EOT
