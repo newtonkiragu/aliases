@@ -33,6 +33,6 @@ chmod +x install.sh
 To add a new alias, on the terminal, type `na` then edit the file appropriately.
 
 # Bugs
-If you find bugs, please create an issue stating the problems
+If you find bugs, please create an issue stating the problems.
 ## licence
 Newton Kiragu - MIT (c)2018 [LICENCE](https://github.com/newtonkiragu/aliases/blob/master/LICENSE)
