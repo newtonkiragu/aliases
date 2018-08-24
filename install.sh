@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 function addbashaliases() {
 if [ -f $HOME/.bashrc ]; then
