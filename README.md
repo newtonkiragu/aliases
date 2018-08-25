@@ -31,6 +31,8 @@ bash -c "$(wget -O - https://raw.githubusercontent.com/newtonkiragu/aliases/mast
 ### Adding aliases
 To add a new alias, on the terminal, type `addalias` then follow the instructions given.
 
+To view a man page, run `ha` in your terminal.
+
 ### Edit current aliases
 To eddit current aliases, run `na` in your terminal.
 
