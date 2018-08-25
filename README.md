@@ -1,3 +1,13 @@
+> ```
+>    #    #       ###    #     #####  #######  #####  
+>   # #   #        #    # #   #     # #       #     # 
+>  #   #  #        #   #   #  #       #       #       
+> #     # #        #  #     #  #####  #####    #####  
+> ####### #        #  #######       # #             # 
+> #     # #        #  #     # #     # #       #     # 
+> #     # ####### ### #     #  #####  #######  #####  
+>                                                    
+> ```
 # Aliases
 Have you ever gotten tired of typing `git status` every time you want to know what changes you have made in your project? How about having to write `mkdir example` and `cd example` just to create and check out into a folder?
 
@@ -17,7 +27,7 @@ bash -c "$(wget -O - https://raw.githubusercontent.com/newtonkiragu/aliases/mast
 - To view your aliases, run `alias` in your terminal
 
 # Adding aliases
-To add a new alias, on the terminal, type `na` then edit the file appropriately.
+To add a new alias, on the terminal, type `addalias` then follow the instructions given.
 
 # Bugs
 If you find bugs, please create an issue stating the problems.
