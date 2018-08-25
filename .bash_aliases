@@ -74,3 +74,4 @@ alias ua='sudo apt-get update && sudo apt-get -y upgrade && sudo apt-get install
 alias pyt='python3.6'
 alias c='code-insiders .'
 alias bs='bucklespring.buckle'
+alias ha='man $HOME/aliases/./addalias'

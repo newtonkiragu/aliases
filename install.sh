@@ -81,5 +81,3 @@ fi
 
 # Execute the function
 addbashaliases
-install -g 0 -o 0 -m 0644 addalias.1 /usr/local/man/man8/
-gzip /usr/local/man/man8/addalias.1
