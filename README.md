@@ -1,7 +1,5 @@
 [![License][license-image]][license-url]
 [![Version][version-image]][version-url]
-[![Build Status][build-image]][build-url]
-[![Dependency Status][dependencies-image]][dependencies-url]
 > ```
 >    #    #       ###    #     #####  #######  #####  
 >   # #   #        #    # #   #     # #       #     # 
@@ -38,3 +36,9 @@ To add a new alias, on the terminal, type `addalias` then follow the instruction
 If you find bugs, please create an issue stating the problems.
 ## licence
 Newton Kiragu - MIT (c)2018 [LICENCE](https://github.com/newtonkiragu/aliases/blob/master/LICENSE)
+
+[license-image]:          https://img.shields.io/badge/Licence-MIT-green.svg?style=popout
+[license-url]:            LICENSE
+
+[version-image]:          https://img.shields.io/badge/version-1.6.2-brightgreen.svg
+[version-url]:            https://github.com/newtonkiragu/aliases/tree/V1.0
