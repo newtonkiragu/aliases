@@ -35,6 +35,7 @@ alias $newalias='$newaliascommand'
 EOT
 else
 echo 'please run addalias to create new alias'
+fi
 }
 alias t="touch"
 alias uu='sudo apt-get update && sudo apt-get -y upgrade'
