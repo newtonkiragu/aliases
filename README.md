@@ -10,7 +10,7 @@
 ```
 
 ## Aliases
-Have you ever gotten tired of typing `git status` every time you want to know what changes you have made in your project? How about having to write `mkdir example` and `cd example` just to create and check out into a folder?
+Have you ever gotten tired of typing `git status` every time you want to know what changes you have made in your project? How about having to write `mkdir example` and `cd example` just to create and check into a folder?
 
 **Aliases** as the name suggests, creates aliases for you that you can use instead of having to type the entire command.
 To get you started, I have some default aliases set up for you. you can edit them and change them any time to suit your need.
