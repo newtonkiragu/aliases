@@ -30,8 +30,10 @@ bash -c "$(wget -O - https://raw.githubusercontent.com/newtonkiragu/aliases/mast
 
 ### Adding aliases
 To add a new alias, on the terminal, type `addalias` then follow the instructions given.
+![Image](https://raw.githubusercontent.com/newtonkiragu/aliases/master/img/Screenshot%20at%202018-08-25%2020-18-57.png)
 
 To view a man page, run `ha` in your terminal.
+![Image](https://raw.githubusercontent.com/newtonkiragu/aliases/master/img/Screenshot%20at%202018-08-25%2020-19-28.png)
 
 ### Edit current aliases
 To eddit current aliases, run `na` in your terminal.
