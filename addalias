@@ -1,0 +1,15 @@
+.\" Manpage for addalias.
+.\" Contact karanunewton4@gmail.com to correct errors or typos.
+.TH man 8 "25 Aug 2018" "1.0" "Addalias man page"
+.SH NAME
+addalias \- create a new alias for your command 
+.SH SYNOPSIS
+addalias
+.SH DESCRIPTION
+addalias is high level shell program to add aliases to your terminal. It prompts users to type in the name of the new alias and the command to be used.
+.SH OPTIONS
+The addalias does not take any options.
+.SH BUGS
+No known bugs. If any found, please create an issue on github (https://github.com/newtonkiragu/aliases/issues)
+.SH AUTHOR
+Newton Karanu (karanunewton4@gmail.com)
