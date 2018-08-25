@@ -26,15 +26,29 @@ mcd() {
   cd $1
 }
 addalias() {
+echo '
+   #    #       ###    #     #####  #######  #####  
+  # #   #        #    # #   #     # #       #     # 
+ #   #  #        #   #   #  #       #       #       
+#     # #        #  #     #  #####  #####    #####  
+####### #        #  #######       # #             # 
+#     # #        #  #     # #     # #       #     # 
+#     # ####### ### #     #  #####  #######  #####  
+                                                    
+'
 read -p "Enter name of new alias: "  newalias
 read -p "Enter command for new alias: " newaliascommand
-read -p 'is this right: alias $newalias=$newaliascommand? ' newprompt
-if [ newprompt == 'Yes' or 'Y' or 'y' ]; then
+echo 'Is this right: alias $newalias = $newaliascommand?'
+read -p "(y/n): " -n 1 -r
+echo    # (optional) move to a new line
+if [[ ! $REPLY =~ ^[Yy]$ ]]; then
+echo 'please run addalias to create new alias'
+else
 cat >> ~/aliases/.bash_aliases << EOT
 alias $newalias='$newaliascommand'
 EOT
-else
-echo 'please run addalias to create new alias'
+echo '###################################'
+echo 'New alias saved'
 fi
 }
 alias t="touch"
