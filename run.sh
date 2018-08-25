@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 cd
 git clone https://github.com/newtonkiragu/aliases/
@@ -10,14 +10,14 @@ function reload() {
 if [ -f $HOME/.bashrc ]; then
 source $HOME/.bashrc
 elif [ -f $HOME/.zshrc ]; then
- source $HOME/aliases/.bash_aliases
+ source $HOME/.zshrc
 elif [ -f $HOME/.bash_profile ]; then
-source $HOME/aliases/.bash_aliases
+source $HOME/.bash_profile
 else
   echo 'please reload your terminal fam.'
 fi
 }
 
+cd
 # Execute the function
 reload
-cd
