@@ -38,10 +38,11 @@ echo '
 '
 read -p "Enter name of new alias: "  newalias
 read -p "Enter command for new alias: " newaliascommand
-echo 'Is this right: alias $newalias = $newaliascommand?'
-read -p "(y/n): " -n 1 -r
+# echo 'Is this right: alias $newalias = $newaliascommand?'
+read -p "add new alias? (y/n): " -n 1 -r
 echo    # (optional) move to a new line
 if [[ ! $REPLY =~ ^[Yy]$ ]]; then
+echo '###################################'
 echo 'please run addalias to create new alias'
 else
 cat >> ~/aliases/.bash_aliases << EOT
