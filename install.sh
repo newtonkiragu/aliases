@@ -5,7 +5,7 @@ if [ -f $HOME/.bashrc ]; then
 cat >> $HOME/.bashrc << EOT
 
 # location of bash aliases
-if [ -f $HOME/aliases/.bash_aliases]; then
+if [ -f $HOME/aliases/.bash_aliases ]; then
 source $HOME/aliases/.bash_aliases
 else
 echo '
@@ -26,7 +26,7 @@ elif [ -f $HOME/.zshrc ]; then
 cat >> $HOME/.zshrc << EOT
 
 # location of bash aliases
-if [ -f $HOME/aliases/.bash_aliases]; then
+if [ -f $HOME/aliases/.bash_aliases ]; then
 source $HOME/aliases/.bash_aliases
 else
 echo '
@@ -47,7 +47,7 @@ elif [ -f $HOME/.bash_profile ]; then
 cat >> $HOME/.bash_profile << EOT
 
 # location of bash aliases
-if [ -f $HOME/aliases/.bash_aliases]; then
+if [ -f $HOME/aliases/.bash_aliases ]; then
 source $HOME/aliases/.bash_aliases
 else
 echo '
