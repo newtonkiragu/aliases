@@ -1,15 +1,13 @@
 [![License][license-image]][license-url]
 [![Version][version-image]][version-url]
-> ```
->    #    #       ###    #     #####  #######  #####  
->   # #   #        #    # #   #     # #       #     # 
->  #   #  #        #   #   #  #       #       #       
-> #     # #        #  #     #  #####  #####    #####  
-> ####### #        #  #######       # #             # 
-> #     # #        #  #     # #     # #       #     # 
-> #     # ####### ### #     #  #####  #######  #####  
->                                                    
-> ```
+```
+           _      _____           _____ ______  _____ 
+     /\   | |    |_   _|   /\    / ____|  ____|/ ____|
+    /  \  | |      | |    /  \  | (___ | |__  | (___  
+   / /\ \ | |      | |   / /\ \  \___ \|  __|  \___ \ 
+  / ____ \| |____ _| |_ / ____ \ ____) | |____ ____) |
+ /_/    \_\______|_____/_/    \_\_____/|______|_____/ 
+```
 
 # Aliases
 Have you ever gotten tired of typing `git status` every time you want to know what changes you have made in your project? How about having to write `mkdir example` and `cd example` just to create and check out into a folder?
