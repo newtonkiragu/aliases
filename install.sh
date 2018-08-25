@@ -4,24 +4,24 @@ function addbashaliases() {
 if [ -f $HOME/.bashrc ]; then
 cat >> $HOME/.bashrc << EOT
 
-  # location of bash aliases
-  source $HOME/aliases/.bash_aliases
+# location of bash aliases
+source $HOME/aliases/.bash_aliases
 EOT
 source $HOME/.bashrc
 elif [ -f $HOME/.zshrc ]; then
 cat >> $HOME/.zshrc << EOT
 
-  # location of bash aliases
-  source $HOME/aliases/.bash_aliases
-EOT
+# location of bash aliases
 source $HOME/aliases/.bash_aliases
+EOT
+source $HOME/.zshrc
 elif [ -f $HOME/.bash_profile ]; then
 cat >> $HOME/.bash_profile << EOT
 
-  # location of bash aliases
-  source $HOME/aliases/.bash_aliases
-EOT
+# location of bash aliases
 source $HOME/aliases/.bash_aliases
+EOT
+source $HOME/.bash_profile
 else
 echo 'no terminal emulator has been found! Please contact the developers for more details'
 fi
