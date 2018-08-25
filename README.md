@@ -1,7 +1,3 @@
-![License][license-image][license-url]
-![Version][version-image][version-url]
-![Build Status][build-image][build-url]
-![Dependency Status][dependencies-image][dependencies-url]
 > ```
 >    #    #       ###    #     #####  #######  #####  
 >   # #   #        #    # #   #     # #       #     # 
