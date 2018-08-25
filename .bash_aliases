@@ -26,9 +26,15 @@ mcd() {
   cd $1
 }
 addalias() {
+read -p "Enter name of new alias: "  newalias
+read -p "Enter command for new alias: " newaliascommand
+read -p 'is this right: alias $newalias=$newaliascommand? ' newprompt
+if [ newprompt == 'Yes' or 'Y' or 'y' ]; then
 cat >> ~/aliases/.bash_aliases << EOT
-  alias='$1'
+alias $newalias='$newaliascommand'
 EOT
+else
+echo 'please run addalias to create new alias'
 }
 alias t="touch"
 alias uu='sudo apt-get update && sudo apt-get -y upgrade'
