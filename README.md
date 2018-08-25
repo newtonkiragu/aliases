@@ -25,10 +25,13 @@ run
 ```console
 bash -c "$(wget -O - https://raw.githubusercontent.com/newtonkiragu/aliases/master/run.sh)"
 ```
-- To view your aliases, run `alias` in your terminal
+- To view your aliases, run `alias` in your terminal.
 
 # Adding aliases
 To add a new alias, on the terminal, type `addalias` then follow the instructions given.
+
+# Edit current aliases
+To eddit current aliases, run `na` in your terminal.
 
 # Bugs
 If you find bugs, please create an issue stating the problems.
