@@ -8,6 +8,16 @@ cat >> $HOME/.bashrc << EOT
 if [ -f $HOME/aliases/.bash_aliases]; then
 source $HOME/aliases/.bash_aliases
 else
+echo '
+   #    #       ###    #     #####  #######  #####  
+  # #   #        #    # #   #     # #       #     # 
+ #   #  #        #   #   #  #       #       #       
+#     # #        #  #     #  #####  #####    #####  
+####### #        #  #######       # #             # 
+#     # #        #  #     # #     # #       #     # 
+#     # ####### ### #     #  #####  #######  #####  
+                                                    
+'
 echo 'please re-install bash aliases from https://github.com/newtonkiragu/aliases'
 fi
 EOT
@@ -19,6 +29,16 @@ cat >> $HOME/.zshrc << EOT
 if [ -f $HOME/aliases/.bash_aliases]; then
 source $HOME/aliases/.bash_aliases
 else
+echo '
+   #    #       ###    #     #####  #######  #####  
+  # #   #        #    # #   #     # #       #     # 
+ #   #  #        #   #   #  #       #       #       
+#     # #        #  #     #  #####  #####    #####  
+####### #        #  #######       # #             # 
+#     # #        #  #     # #     # #       #     # 
+#     # ####### ### #     #  #####  #######  #####  
+                                                    
+'
 echo 'please re-install bash aliases from https://github.com/newtonkiragu/aliases'
 fi
 EOT
@@ -30,11 +50,31 @@ cat >> $HOME/.bash_profile << EOT
 if [ -f $HOME/aliases/.bash_aliases]; then
 source $HOME/aliases/.bash_aliases
 else
+echo '
+   #    #       ###    #     #####  #######  #####  
+  # #   #        #    # #   #     # #       #     # 
+ #   #  #        #   #   #  #       #       #       
+#     # #        #  #     #  #####  #####    #####  
+####### #        #  #######       # #             # 
+#     # #        #  #     # #     # #       #     # 
+#     # ####### ### #     #  #####  #######  #####  
+                                                    
+'
 echo 'please re-install bash aliases from https://github.com/newtonkiragu/aliases'
 fi
 EOT
 source $HOME/.bash_profile
 else
+echo '
+   #    #       ###    #     #####  #######  #####  
+  # #   #        #    # #   #     # #       #     # 
+ #   #  #        #   #   #  #       #       #       
+#     # #        #  #     #  #####  #####    #####  
+####### #        #  #######       # #             # 
+#     # #        #  #     # #     # #       #     # 
+#     # ####### ### #     #  #####  #######  #####  
+                                                    
+'
 echo 'no terminal emulator has been found! Please contact the developers for more details'
 fi
 }
