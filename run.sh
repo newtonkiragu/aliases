@@ -5,8 +5,7 @@ git clone https://github.com/newtonkiragu/aliases/
 cd aliases
 chmod +x install.sh
 ./install.sh
-sudo su
-echo '@monthly cd ~/aliases/ && git pull origin master' >> /etc/cron.d/aliases
+sudo echo '@monthly cd ~/aliases/ && git pull origin master' >> /etc/cron.d/aliases
 exit
 function reload() {
 if [ -f $HOME/.bashrc ]; then
