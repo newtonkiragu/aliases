@@ -10,7 +10,7 @@ echo "================================"
 echo
 echo 'Please type in your password when prompted to set autorefresh your aliases every month'
 echo
-gksudo echo '@monthly cd ~/aliases/ && git pull origin master' >> /etc/cron.d/aliases
+sudo -s echo '@monthly cd ~/aliases/ && git pull origin master' >> /etc/cron.d/aliases
 exit
 function reload() {
 if [ -f $HOME/.bashrc ]; then
