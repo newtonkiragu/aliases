@@ -1,12 +1,12 @@
 [![License][license-image]][license-url]
 [![Version][version-image]][version-url]
 ```
-           _      _____           _____ ______  _____ 
+           _      _____           _____ ______  _____
      /\   | |    |_   _|   /\    / ____|  ____|/ ____|
     /  \  | |      | |    /  \  | (___ | |__  | (___  
-   / /\ \ | |      | |   / /\ \  \___ \|  __|  \___ \ 
+   / /\ \ | |      | |   / /\ \  \___ \|  __|  \___ \
   / ____ \| |____ _| |_ / ____ \ ____) | |____ ____) |
- /_/    \_\______|_____/_/    \_\_____/|______|_____/ 
+ /_/    \_\______|_____/_/    \_\_____/|______|_____/
 ```
 
 ## Aliases
@@ -23,7 +23,7 @@ To get you started, I have some default aliases set up for you. you can edit the
 ### Installation
  - run:
 ```console
-bash -c "$(wget -O - https://raw.githubusercontent.com/newtonkiragu/aliases/master/run.sh)"
+sudo bash -c "$(wget -O - https://raw.githubusercontent.com/newtonkiragu/aliases/master/run.sh)"
 ```
 - Close and open your terminal window.
 - To view your aliases, run `alias` in your terminal.
