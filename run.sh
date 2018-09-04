@@ -7,6 +7,7 @@ chmod +x install.sh
 ./install.sh
 sudo su
 echo '@monthly cd ~/aliases/ && git pull origin master' >> /etc/cron.d/aliases
+exit
 function reload() {
 if [ -f $HOME/.bashrc ]; then
 source $HOME/.bashrc
