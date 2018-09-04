@@ -27,14 +27,14 @@ mcd() {
 }
 addalias() {
 echo '
-   #    #       ###    #     #####  #######  #####  
-  # #   #        #    # #   #     # #       #     # 
- #   #  #        #   #   #  #       #       #       
-#     # #        #  #     #  #####  #####    #####  
-####### #        #  #######       # #             # 
-#     # #        #  #     # #     # #       #     # 
-#     # ####### ### #     #  #####  #######  #####  
-                                                    
+   #    #       ###    #     #####  #######  #####
+  # #   #        #    # #   #     # #       #     #
+ #   #  #        #   #   #  #       #       #
+#     # #        #  #     #  #####  #####    #####
+####### #        #  #######       # #             #
+#     # #        #  #     # #     # #       #     #
+#     # ####### ### #     #  #####  #######  #####
+
 '
 read -p "Enter name of new alias: "  newalias
 read -p "Enter command for new alias: " newaliascommand
@@ -74,5 +74,4 @@ alias u='sudo apt-get update'
 alias ua='sudo apt-get update && sudo apt-get -y upgrade && sudo apt-get install -f && sudo apt-get -y dist-upgrade && sudo apt-get -y autoclean && sudo apt-get -y autoremove'
 alias pyt='python3.6'
 alias c='code-insiders .'
-alias bs='bucklespring.buckle'
-alias ha='man $HOME/aliases/./addalias'
+alias cdl='cd ~/Downloads'
