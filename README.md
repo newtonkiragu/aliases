@@ -23,7 +23,7 @@ To get you started, I have some default aliases set up for you. you can edit the
 ### Installation
  - run:
 ```console
-sudo bash -c "$(wget -O - https://raw.githubusercontent.com/newtonkiragu/aliases/master/run.sh)"
+bash -c "$(wget -O - https://raw.githubusercontent.com/newtonkiragu/aliases/master/run.sh)"
 ```
 - Close and open your terminal window.
 - To view your aliases, run `alias` in your terminal.
