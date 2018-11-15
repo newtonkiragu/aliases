@@ -73,5 +73,14 @@ alias rn='sudo service network-manager restart'
 alias u='sudo apt-get update'
 alias ua='sudo apt-get update && sudo apt-get -y upgrade && sudo apt-get install -f && sudo apt-get -y dist-upgrade && sudo apt-get -y autoclean && sudo apt-get -y autoremove'
 alias pyt='python3.6'
-alias c='code-insiders .'
+alias c='code .'
 alias cdl='cd ~/Downloads'
+alias _='sudo'
+alias la='ls -a'
+alias start='x-terminal-emulator'
+alias ss='python -m SimpleHTTPServer'
+mkvenv () {
+  /usr/bin/python3.6 -m virtualenv $1
+  source $1/bin/activate
+}
+alias v='vim'
