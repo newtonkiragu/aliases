@@ -1,8 +1,8 @@
 #!/bin/bash
 
 cd
-git clone https://github.com/newtonkiragu/aliases/
-cd aliases
+git clone https://github.com/newtonkiragu/.aliases/
+cd .aliases
 chmod +x install.sh
 ./install.sh
 echo
@@ -10,7 +10,7 @@ echo "================================"
 echo
 echo 'Please type in your password when prompted to set autorefresh your aliases every month'
 echo
-sudo echo '@monthly cd ~/aliases/ && git pull origin master' >> /etc/cron.d/aliases
+sudo echo '@monthly cd ~/.aliases/ && git pull origin master' >> /etc/cron.d/aliases
 function reload() {
 if [ -f $HOME/.bashrc ]; then
 source $HOME/.bashrc
