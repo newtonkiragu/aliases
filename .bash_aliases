@@ -17,7 +17,7 @@ alias gm='git merge'
 alias gcl='git clone'
 alias gf='git fetch'
 gcr() {
-  git create newtonkiragu/$1
+  hub create newtonkiragu/$1
 }
 
 # system aliases
@@ -61,7 +61,6 @@ alias rlt='source ~/.bashrc ~/aliases/.bash_aliases'
 alias ..='cd ../'
 alias dl='cd ~/Videos && youtube-dl'
 alias dla='cd ~/Videos && youtube-dl -cit'
-alias install='sudo dpkg -i'
 alias extract='tar xzfj'
 alias na='nano ~/aliases/.bash_aliases'
 alias stve='source virtual/bin/activate'
@@ -83,4 +82,12 @@ mkvenv () {
   /usr/bin/python3.6 -m virtualenv $1
   source $1/bin/activate
 }
+inst () {
+  sudo dpkg -i $1
+  rm -rf $1
+  echo "done installing"
+}
 alias v='vim'
+alias d='deactivate'
+alias cap='sudo create_ap wlo1 wlo1 Lenovo parseword'
+alias gca='git commit -am'
