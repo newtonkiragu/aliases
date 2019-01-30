@@ -20,6 +20,8 @@ echo '
 '
 echo 'please re-install bash aliases from https://github.com/newtonkiragu/aliases'
 fi
+
+
 EOT
 source $HOME/.bashrc
 elif [ -f $HOME/.zshrc ]; then
@@ -41,6 +43,8 @@ echo '
 '
 echo 'please re-install bash aliases from https://github.com/newtonkiragu/.aliases'
 fi
+
+
 EOT
 source $HOME/.zshrc
 elif [ -f $HOME/.bash_profile ]; then
@@ -62,6 +66,8 @@ echo '
 '
 echo 'please re-install bash aliases from https://github.com/newtonkiragu/.aliases'
 fi
+
+
 EOT
 source $HOME/.bash_profile
 else
