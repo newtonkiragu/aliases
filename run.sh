@@ -25,7 +25,7 @@ echo '
 #     # ####### ### #     #  #####  #######  #####
 
 '
-echo 'We cool fam, you now have aliases.'
+echo 'We cool fam, you now have aliases. Please open a new instance of your terminal to start using your aliases.'
 elif [ -f $HOME/.zshrc ]; then
  source $HOME/.zshrc
  echo '
@@ -38,7 +38,7 @@ elif [ -f $HOME/.zshrc ]; then
 #     # ####### ### #     #  #####  #######  #####
 
 '
-echo 'We cool fam, you now have aliases.'
+echo 'We cool fam, you now have aliases. Please open a new instance of your terminal to start using your aliases.'
 elif [ -f $HOME/.bash_profile ]; then
 source $HOME/.bash_profile
 echo '
@@ -51,7 +51,7 @@ echo '
 #     # ####### ### #     #  #####  #######  #####
 
 '
-echo 'We cool fam, you now have aliases.'
+echo 'We cool fam, you now have aliases. Please open a new instance of your terminal to start using your aliases.'
 else
 echo '
    #    #       ###    #     #####  #######  #####
