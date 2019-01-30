@@ -1,5 +1,7 @@
 [![License][license-image]][license-url]
 [![Version][version-image]][version-url]
+# Linux Install   
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source-200x33.png?v=103)](https://github.com/ellerbrock/open-source-badge/) 
 ```
            _      _____           _____ ______  _____
      /\   | |    |_   _|   /\    / ____|  ____|/ ____|
@@ -49,5 +51,5 @@ Newton Kiragu - MIT (c)2018 [LICENCE](https://github.com/newtonkiragu/.aliases/b
 [license-image]:          https://img.shields.io/badge/Licence-MIT-green.svg?style=popout
 [license-url]:            LICENSE
 
-[version-image]:          https://img.shields.io/badge/version-1.6.2-brightgreen.svg
-[version-url]:            https://github.com/newtonkiragu/.aliases/tree/V1.0
+[version-image]:          https://img.shields.io/github/release/newtonkiragu/.aliases.svg?style=flat
+[version-url]:            https://github.com/newtonkiragu/.aliases/releases/tag/2.0
