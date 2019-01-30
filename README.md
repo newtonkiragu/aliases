@@ -52,4 +52,4 @@ Newton Kiragu - MIT (c)2018 [LICENCE](https://github.com/newtonkiragu/.aliases/b
 [license-url]:            LICENSE
 
 [version-image]:          https://img.shields.io/github/release/newtonkiragu/.aliases.svg?style=flat
-[version-url]:            https://github.com/newtonkiragu/.aliases/releases/tag/2.0
+[version-url]:            https://github.com/newtonkiragu/.aliases/releases/latest
