@@ -40,7 +40,7 @@ To view a man page, run `ha` in your terminal.
 ![Image](https://raw.githubusercontent.com/newtonkiragu/.aliases/master/img/Screenshot%20at%202018-08-25%2020-19-28.png)
 
 ### Edit current aliases
-To eddit current aliases, run `na` in your terminal.
+To edit current aliases, run `na` in your terminal.
 
 ### Bugs
 If you find bugs, please create an issue stating the problems.
