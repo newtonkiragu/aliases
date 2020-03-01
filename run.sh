@@ -10,8 +10,6 @@ echo "================================"
 echo
 echo 'Please type in your password when prompted to set autorefresh your aliases every month'
 echo
-sudo touch /etc/cron.d/aliases
-echo "@monthly cd ~/.aliases/ && git pull origin master > ~/.aliases/update.logs" | sudo tee -a /etc/cron.d/aliases
 function reload() {
 if [ -f $HOME/.bashrc ]; then
 source $HOME/.bashrc
@@ -68,5 +66,4 @@ fi
 }
 
 cd
-# Execute the function
 reload
