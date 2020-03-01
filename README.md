@@ -25,9 +25,13 @@ View the current default aliases by following [this link](https://github.com/new
 - You need to have `nano` text editor installed. you can find out whether you have it installed by typing `nano --version` in your terminal. For most linux distributions, it is installed by default. However, if you don't have it installed, you can quicky do that by typing `sudo apt-get install nano` in your terminal.
 
 ### Installation
- - run:
-```console
+Wget
+```shell
 bash -c "$(wget -O - https://raw.githubusercontent.com/newtonkiragu/aliases/master/install.sh)"
+```
+Curl
+```shell
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/newtonkiragu/aliases/master/install.sh)"
 ```
 - Close and open your terminal window.
 - To view your aliases, run `alias` in your terminal.
