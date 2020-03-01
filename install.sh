@@ -85,6 +85,7 @@ done
 # location of bash aliases
 if [ -f $HOME/.aliases/.bash_aliases ]; then
 source $HOME/.aliases/.bash_aliases
+source $HOME/.aliases/custom/.bash_aliases
 else
 echo '
    #    #       ###    #     #####  #######  #####  
@@ -119,6 +120,7 @@ done
 # location of bash aliases
 if [ -f $HOME/.aliases/.bash_aliases ]; then
 source $HOME/.aliases/.bash_aliases
+source $HOME/.aliases/custom/.bash_aliases
 else
 echo '
    #    #       ###    #     #####  #######  #####  
@@ -155,6 +157,7 @@ done
 # location of bash aliases
 if [ -f $HOME/.aliases/.bash_aliases ]; then
 source $HOME/.aliases/.bash_aliases
+source $HOME/.aliases/custom/.bash_aliases
 else
 echo '
    #    #       ###    #     #####  #######  #####  
@@ -191,6 +194,61 @@ echo 'no terminal emulator has been found! Please contact the developers for mor
 fi
 }
 
+function reload() {
+if [ -f $HOME/.bashrc ]; then
+source $HOME/.bashrc
+echo '
+   #    #       ###    #     #####  #######  #####
+  # #   #        #    # #   #     # #       #     #
+ #   #  #        #   #   #  #       #       #
+#     # #        #  #     #  #####  #####    #####
+####### #        #  #######       # #             #
+#     # #        #  #     # #     # #       #     #
+#     # ####### ### #     #  #####  #######  #####
+
+'
+echo 'We cool fam, you now have aliases. Please open a new instance of your terminal to start using your aliases.'
+elif [ -f $HOME/.zshrc ]; then
+ source $HOME/.zshrc
+ echo '
+   #    #       ###    #     #####  #######  #####
+  # #   #        #    # #   #     # #       #     #
+ #   #  #        #   #   #  #       #       #
+#     # #        #  #     #  #####  #####    #####
+####### #        #  #######       # #             #
+#     # #        #  #     # #     # #       #     #
+#     # ####### ### #     #  #####  #######  #####
+
+'
+echo 'We cool fam, you now have aliases. Please open a new instance of your terminal to start using your aliases.'
+elif [ -f $HOME/.bash_profile ]; then
+source $HOME/.bash_profile
+echo '
+   #    #       ###    #     #####  #######  #####
+  # #   #        #    # #   #     # #       #     #
+ #   #  #        #   #   #  #       #       #
+#     # #        #  #     #  #####  #####    #####
+####### #        #  #######       # #             #
+#     # #        #  #     # #     # #       #     #
+#     # ####### ### #     #  #####  #######  #####
+
+'
+echo 'We cool fam, you now have aliases. Please open a new instance of your terminal to start using your aliases.'
+else
+echo '
+   #    #       ###    #     #####  #######  #####
+  # #   #        #    # #   #     # #       #     #
+ #   #  #        #   #   #  #       #       #
+#     # #        #  #     #  #####  #####    #####
+####### #        #  #######       # #             #
+#     # #        #  #     # #     # #       #     #
+#     # ####### ### #     #  #####  #######  #####
+
+'
+echo 'please reload your terminal fam.'
+fi
+}
+
 main() {
 	setup_color
 
@@ -204,6 +262,7 @@ main() {
 
 	setup_aliases
 	addbashaliases
+	reload
 
 	printf "$GREEN"
 	cat <<-'EOF'
