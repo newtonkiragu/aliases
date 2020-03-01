@@ -1,25 +1,3 @@
-# git aliases
-alias st='git status'
-alias gi='git init'
-alias gc='git commit'
-alias gcm='git commit -m'
-alias grm='git remote -v'
-alias gb='git branch'
-alias gchb='git checkout -b'
-alias gch='git checkout'
-alias gp='git push'
-alias gpl='git pull'
-alias ga='git add'
-alias grma='git remote add'
-alias grmc='git rm --cached'
-alias gca='git commit --amend -CHEAD'
-alias gm='git merge'
-alias gcl='git clone'
-alias gf='git fetch'
-gcr() {
-  hub create newtonkiragu/$1
-}
-
 # system aliases
 mcd() {
   mkdir $1
