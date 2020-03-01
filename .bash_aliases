@@ -45,7 +45,7 @@ if [[ ! $REPLY =~ ^[Yy]$ ]]; then
 echo '###################################'
 echo 'please run addalias to create new alias'
 else
-cat >> ~/.aliases/.bash_aliases << EOT
+cat >> ~/.aliases/custom/.bash_aliases << EOT
 alias $newalias='$newaliascommand'
 EOT
 echo '###################################'
