@@ -27,7 +27,7 @@ View the current default aliases by following [this link](https://github.com/new
 ### Installation
  - run:
 ```console
-bash -c "$(wget -O - https://raw.githubusercontent.com/newtonkiragu/.aliases/master/run.sh)"
+bash -c "$(wget -O - https://raw.githubusercontent.com/newtonkiragu/aliases/master/install.sh)"
 ```
 - Close and open your terminal window.
 - To view your aliases, run `alias` in your terminal.
