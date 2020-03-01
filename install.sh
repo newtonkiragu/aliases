@@ -67,9 +67,12 @@ setup_aliases() {
 	}
 
 	echo
+		echo "${YELLOW}Done...${RESET}"
+
 }
 
 function addbashaliases() {
+  	echo "${BLUE}Setting up aliases...${RESET}"
 if [ -f $HOME/.bashrc ]; then
   TERMINAL_EMULATOR=${TERMINAL_EMULATOR:-$HOME/.bashrc}
 cat >> $HOME/.bashrc << EOT
@@ -103,7 +106,7 @@ fi
 # aliases tools
 
 EOT
-source $HOME/.bashrc
+	echo "${YELLOW}Done...${RESET}"
 elif [ -f $HOME/.zshrc ]; then
     TERMINAL_EMULATOR=${TERMINAL_EMULATOR:-$HOME/.zshrc}
 cat >> $HOME/.zshrc << EOT
@@ -141,7 +144,7 @@ tools=(
 )
 
 EOT
-source $HOME/.zshrc
+	echo "${YELLOW}Done...${RESET}"
 elif [ -f $HOME/.bash_profile ]; then
       TERMINAL_EMULATOR=${TERMINAL_EMULATOR:-$HOME/.bash_profile}
 cat >> $HOME/.bash_profile << EOT
@@ -178,7 +181,7 @@ tools=(
 )
 
 EOT
-source $HOME/.bash_profile
+	echo "${YELLOW}Done...${RESET}"
 else
 echo '
    #    #       ###    #     #####  #######  #####  
@@ -195,8 +198,11 @@ fi
 }
 
 function reload() {
+  	echo "${BLUE}Final Touches...${RESET}"
+
 if [ -f $HOME/.bashrc ]; then
 source $HOME/.bashrc
+	echo "${YELLOW}Done...${RESET}"
 echo '
    #    #       ###    #     #####  #######  #####
   # #   #        #    # #   #     # #       #     #
@@ -210,6 +216,7 @@ echo '
 echo 'We cool fam, you now have aliases. Please open a new instance of your terminal to start using your aliases.'
 elif [ -f $HOME/.zshrc ]; then
  source $HOME/.zshrc
+ 	echo "${YELLOW}Done...${RESET}"
  echo '
    #    #       ###    #     #####  #######  #####
   # #   #        #    # #   #     # #       #     #
@@ -223,6 +230,7 @@ elif [ -f $HOME/.zshrc ]; then
 echo 'We cool fam, you now have aliases. Please open a new instance of your terminal to start using your aliases.'
 elif [ -f $HOME/.bash_profile ]; then
 source $HOME/.bash_profile
+	echo "${YELLOW}Done...${RESET}"
 echo '
    #    #       ###    #     #####  #######  #####
   # #   #        #    # #   #     # #       #     #
@@ -265,24 +273,9 @@ main() {
 	reload
 
 	printf "$GREEN"
-	cat <<-'EOF'
-	   #    #       ###    #     #####  #######  #####
-  # #   #        #    # #   #     # #       #     #
- #   #  #        #   #   #  #       #       #
-#     # #        #  #     #  #####  #####    #####
-####### #        #  #######       # #             #
-#     # #        #  #     # #     # #       #     #
-#     # ####### ### #     #  #####  #######  #####
-                     ..... is now installed!
-	EOF
-
-	echo 'Please run aliases to view pre-set aliases.'
+	echo 'Please run alias to view pre-set aliases.'
 	printf "$RESET"
 
-	if [ $RUNALIASES = no ]; then
-		echo "${YELLOW}Run aliases to try it out.${RESET}"
-		exit
-	fi
 }
 
 main "$@"
