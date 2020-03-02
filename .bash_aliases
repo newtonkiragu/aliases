@@ -69,25 +69,3 @@ alias v='vim'
 alias d='deactivate'
 alias cap='sudo create_ap wlo1 wlo1 Lenovo parseword'
 alias gca='git commit -am'
-rmalias () {
-echo '
-   #    #       ###    #     #####  #######  #####
-  # #   #        #    # #   #     # #       #     #
- #   #  #        #   #   #  #       #       #
-#     # #        #  #     #  #####  #####    #####
-####### #        #  #######       # #             #
-#     # #        #  #     # #     # #       #     #
-#     # ####### ### #     #  #####  #######  #####
-
-'
-cd ~/
-rm -rf .aliases/
-if [ -f $HOME/.bashrc ]; then
-  sed '/# location of bash aliases/,16 d' ~/.bashrc
-elif [ -f $HOME/.zshrc ]; then
-  sed '/# location of bash aliases/,16 d' ~/.zshrc
-elif [ -f $HOME/.bash_profile ]; then
-  sed '/# location of bash aliases/,16 d' ~/.bash_profile
-fi
-echo "Aliases app has been removed, it is done."
-}
