@@ -81,7 +81,7 @@ cat >> $HOME/.bashrc << EOT
 for plugin ($tools); do
   if is_plugin TERMINAL_EMULATOR $plugin; then
     fpath=($ALIASES/tools/$plugin $fpath)
-    echo "[oh-my-zsh] plugin '$plugin' not found"
+    echo "[aliases] plugin '$plugin' not found"
   fi
 done
 
@@ -104,6 +104,11 @@ echo 'please re-install bash aliases from https://github.com/newtonkiragu/aliase
 fi
 
 # aliases tools
+tools=(
+  alias-finder
+  git
+  config
+)
 
 EOT
 	echo "${YELLOW}Done...${RESET}"
@@ -115,7 +120,7 @@ cat >> $HOME/.zshrc << EOT
 for plugin ($tools); do
   if is_plugin TERMINAL_EMULATOR $plugin; then
     fpath=($ALIASES/tools/$plugin $fpath)
-    echo "[oh-my-zsh] plugin '$plugin' not found"
+    echo "[aliases] plugin '$plugin' not found"
   fi
 done
 
@@ -141,6 +146,7 @@ fi
 tools=(
   alias-finder
   git
+  config
 )
 
 EOT
@@ -153,7 +159,7 @@ cat >> $HOME/.bash_profile << EOT
 for plugin ($tools); do
   if is_plugin TERMINAL_EMULATOR $plugin; then
     fpath=($ALIASES/tools/$plugin $fpath)
-    echo "[oh-my-zsh] plugin '$plugin' not found"
+    echo "[aliases] plugin '$plugin' not found"
   fi
 done
 
@@ -175,9 +181,11 @@ echo '
 echo 'please re-install bash aliases from https://github.com/newtonkiragu/.aliases'
 fi
 
+
 tools=(
   alias-finder
   git
+  config
 )
 
 EOT
