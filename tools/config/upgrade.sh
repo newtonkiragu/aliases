@@ -1,6 +1,7 @@
 
 # Use colors, but only if connected to a terminal, and that terminal
 # supports them.
+upgradeAlias () {
 if which tput >/dev/null 2>&1; then
     ncolors=$(tput colors)
 fi
@@ -56,3 +57,4 @@ then
 else
   printf "${RED}%s${NORMAL}\n" 'There was an error updating. Try again later?'
 fi
+}
